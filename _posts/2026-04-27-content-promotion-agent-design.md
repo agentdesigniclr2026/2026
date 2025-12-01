@@ -354,7 +354,7 @@ We now turn to discuss several papers that illustrate components (or the absence
 the frameworks discussed above.
 
 ### Prompt-based Agent
-<d-cite key=bardas_automatic_2025></d-cite> introduced a set of prompt-based agents designed to modify a human-authored
+&nbsp;<d-cite key=bardas_automatic_2025></d-cite> introduced a set of prompt-based agents designed to modify a human-authored
 document so that the updated version is ranked higher in the next round of the ranking. Their
 prompting strategy explicitly constrains the agent to produce revisions that remain faithful ---
 at least to some extent --- to the original document. <d-cite key=bardas_automatic_2025></d-cite> introduced prompt-
@@ -363,7 +363,7 @@ documents without requiring any learning. Their evaluation was conducted using d
 ranking competition previously organized among human document authors.
 
 ### RLRF-based Agent
-<d-cite key="mordo_rlrf_2025"></d-cite> proposed a ranker-aligned agent, trained via a reinforcement-
+<&nbsp;d-cite key="mordo_rlrf_2025"></d-cite> proposed a ranker-aligned agent, trained via a reinforcement-
 learning-from-ranker-feedback (RLRF) framework. They constructed a synthetic dataset
 generated through a simulated ranking competition and used it to train the agent with the
 DPO algorithm <d-cite key=rafailov_direct_2024></d-cite>. Notably, the resulting agent learned to adapt both to
@@ -374,7 +374,7 @@ assumed that the competing agents are nonoptimized agents; this setup can be vie
 variant of self-play, where agents iteratively interact under stable, nonlearning strategies.
 
 ### LEMSS
-<d-cite key="mordo_lemss_2025" block></d-cite> also introduced LEMSS, a large-scale simulation framework
+&nbsp;<d-cite key="mordo_lemss_2025" block></d-cite> also introduced LEMSS, a large-scale simulation framework
 for ranking competitions among LLM-based agents. Their results show that LLM-driven
 agents exhibit behavioral patterns like those of humans in iterative ranking games. LEMSS
 provides fine-grained control over nearly all aspects of the competition --- such as the number
