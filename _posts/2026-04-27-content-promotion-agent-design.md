@@ -139,19 +139,23 @@ mechanism;
 
 <div class="row mt-3">
     <div class="col-sm-12" id="fig1">
-        {% include figure.html path="assets/img/2026-04-27-content-promotion-agent-design/banana-search.jpg" class="img-fluid rounded z-depth-1" %}
-        <div class="caption">
-            <strong>Figure 1:</strong> Content optimization in a traditional search setting.
-        </div>
+        <figure>
+            <img src="/2026/assets/img/2026-04-27-content-promotion-agent-design/banana-search.jpg" class="img-fluid rounded z-depth-1" alt="Content optimization in a traditional search setting">
+            <figcaption class="caption" style="color: inherit;">
+                <strong>Figure 1:</strong> Content optimization in a traditional search setting.
+            </figcaption>
+        </figure>
     </div>
 </div>
 
 <div class="row mt-3">
     <div class="col-sm-12" id="fig2">
-        {% include figure.html path="assets/img/2026-04-27-content-promotion-agent-design/banana-chat-fixed-with-gpt.png" class="img-fluid rounded z-depth-1" %}
-        <div class="caption">
-            <strong>Figure 2:</strong> Content optimization in a chat-like setting.
-        </div>
+        <figure>
+            <img src="/2026/assets/img/2026-04-27-content-promotion-agent-design/banana-chat-fixed-with-gpt.png" class="img-fluid rounded z-depth-1" alt="Content optimization in a chat-like setting">
+            <figcaption class="caption" style="color: inherit;">
+                <strong>Figure 2:</strong> Content optimization in a chat-like setting.
+            </figcaption>
+        </figure>
     </div>
 </div>
 
@@ -173,17 +177,21 @@ systems and chat-like systems, respectively.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0" id="fig3">
-        {% include figure.html path="assets/img/2026-04-27-content-promotion-agent-design/search-schema-nbg.png" class="img-fluid rounded z-depth-1" %}
-        <div class="caption text-center" id="fig4">
-            <strong>Figure 3:</strong> Schematic illustration of a traditional search game.
-        </div>
+        <figure>
+            <img src="/2026/assets/img/2026-04-27-content-promotion-agent-design/search-schema-nbg.png" class="img-fluid rounded z-depth-1" alt="Schematic illustration of a traditional search game">
+            <figcaption class="caption text-center" style="color: inherit;">
+                <strong>Figure 3:</strong> Schematic illustration of a traditional search game.
+            </figcaption>
+        </figure>
     </div>
 
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/2026-04-27-content-promotion-agent-design/chat-schema-nbg.png" class="img-fluid rounded z-depth-1" %}
-        <div class="caption text-center">
-            <strong>Figure 4:</strong> Schematic illustration of a chat-like game.
-        </div>
+    <div class="col-sm mt-3 mt-md-0" id="fig4">
+        <figure>
+            <img src="/2026/assets/img/2026-04-27-content-promotion-agent-design/chat-schema-nbg.png" class="img-fluid rounded z-depth-1" alt="Schematic illustration of a chat-like game">
+            <figcaption class="caption text-center" style="color: inherit;">
+                <strong>Figure 4:</strong> Schematic illustration of a chat-like game.
+            </figcaption>
+        </figure>
     </div>
 </div>
 
