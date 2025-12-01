@@ -363,7 +363,7 @@ documents without requiring any learning. Their evaluation was conducted using d
 ranking competition previously organized among human document authors.
 
 ### RLRF-based Agent
-<&nbsp;<d-cite key="mordo_rlrf_2025"></d-cite> proposed a ranker-aligned agent, trained via a reinforcement-
+&nbsp;<d-cite key="mordo_rlrf_2025"></d-cite> proposed a ranker-aligned agent, trained via a reinforcement-
 learning-from-ranker-feedback (RLRF) framework. They constructed a synthetic dataset
 generated through a simulated ranking competition and used it to train the agent with the
 DPO algorithm <d-cite key=rafailov_direct_2024></d-cite>. Notably, the resulting agent learned to adapt both to
